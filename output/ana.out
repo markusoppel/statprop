@@ -1,0 +1,2007 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          [][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+          [][][][][]                                      [][][][]
+          [][][][][]                                      [][][][]
+            [][][]          Understand for FORTRAN          [][]  
+            [][][]                                          [][]  
+            [][][]              version 1.0.7               [][]  
+            [][][]                                          [][]  
+            [][][]                                          [][]  
+            [][][]                                          [][]  
+          [][][][][]                                      [][][][]
+          [][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+                               Table of Contents
+===============================================================================
+Page No
+
+     1  DATA DICTIONARY SUMMARY REPORT
+    10  SUBPROGRAM CROSS REFERENCE REPORT
+    13  INTRINSIC FUNCTION CROSS REFERENCE REPORT
+    14  OBJECT CROSS REFERENCE REPORT
+    35  IMPLICITLY DECLARED OBJECTS SUMMARY REPORT
+    36  COMMON USAGE CROSS REFERENCE REPORT
+    37  SUBPROGRAM COMPLEXITY SUMMARY REPORT
+    38  UNUSED OBJECT CROSS REFERENCE REPORT
+    39  UNRESOLVED SUBPROGRAM SUMMARY REPORT
+    40  FULL INVOCATION TREE REPORT
+    41  ERROR SUMMARY REPORT
+                                                                    Page 1     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+a(maxvec,maxvec)   Argument 
+        << mtv  FILE: propagate.f  LINE: 280 >>
+
+adia(maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 46 >>
+
+analyse   Subroutine 
+        << FILE: analyse.f  LINE: 1 >>
+
+cart   Argument 
+        << getdip  FILE: getfile.f  LINE: 43 >>
+
+cart   Argument 
+        << option  FILE: option.f  LINE: 1 >>
+
+cart   Variable 
+        << confspace  FILE: stateprop.f  LINE: 78 >>
+
+cim   Parameter 
+        << param.inc  FILE: param.inc  LINE: 27 >>
+
+cone   Parameter 
+        << param.inc  FILE: param.inc  LINE: 27 >>
+
+confspace   Program 
+        << FILE: stateprop.f  LINE: 1 >>
+
+czero   Parameter 
+        << param.inc  FILE: param.inc  LINE: 27 >>
+
+devcsf   [UNRESOLVED] Subroutine 
+        
+
+diag(maxvec)   Argument 
+        << exppot  FILE: propagate.f  LINE: 250 >>
+
+dip   Parameter 
+        << param.inc  FILE: param.inc  LINE: 10 >>
+
+dipdiag(maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 52 >>
+
+dipol(maxvec,maxvec)   Argument 
+        << getdip  FILE: getfile.f  LINE: 43 >>
+
+dipol(maxvec,maxvec)   Argument 
+        << propagate  FILE: propagate.f  LINE: 1 >>
+
+dipol(maxvec,maxvec)   Variable 
+        << confspace  FILE: stateprop.f  LINE: 79 >>
+
+dlinrg   [UNRESOLVED] Subroutine 
+        
+                                                                    Page 2     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+dt   Argument 
+        << propagate  FILE: propagate.f  LINE: 1 >>
+
+dt   Argument 
+        << exppot  FILE: propagate.f  LINE: 250 >>
+
+dtime   [UNRESOLVED] Function 
+        
+
+edat   Parameter 
+        << param.inc  FILE: param.inc  LINE: 11 >>
+
+efield   Variable 
+        << propagate  FILE: propagate.f  LINE: 60 >>
+
+efield   Argument 
+        << exppot  FILE: propagate.f  LINE: 250 >>
+
+ehalfpsi(maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 48 >>
+
+energy   Variable 
+        << analyse  FILE: analyse.f  LINE: 12 >>
+
+energy   Variable 
+        << propagate  FILE: propagate.f  LINE: 82 >>
+
+epsi(maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 47 >>
+
+exit   [UNRESOLVED] Subroutine 
+        
+
+exppot   Subroutine 
+        << FILE: propagate.f  LINE: 250 >>
+
+expval   Function 
+        << FILE: propagate.f  LINE: 309 >>
+
+ezero   Variable 
+        << laser  FILE: laser.f  LINE: 23 >>
+
+ezero   Variable 
+        << lasval  FILE: laser.f  LINE: 86 >>
+
+fac(maxvec)   Argument 
+        << exppot  FILE: propagate.f  LINE: 250 >>
+
+fac   Argument 
+        << mtv  FILE: propagate.f  LINE: 280 >>
+
+freq   Variable 
+        << laser  FILE: laser.f  LINE: 23 >>
+                                                                    Page 3     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+freq   Variable 
+        << lasval  FILE: laser.f  LINE: 86 >>
+
+fromdebye   Parameter 
+        << units.inc  FILE: units.inc  LINE: 23 >>
+
+fromev   Parameter 
+        << units.inc  FILE: units.inc  LINE: 25 >>
+
+fromfemts   Parameter 
+        << units.inc  FILE: units.inc  LINE: 26 >>
+
+fromgigav   Parameter 
+        << units.inc  FILE: units.inc  LINE: 24 >>
+
+fstate   Argument 
+        << analyse  FILE: analyse.f  LINE: 1 >>
+
+fstate   Argument 
+        << option  FILE: option.f  LINE: 1 >>
+
+fstate   Argument 
+        << propagate  FILE: propagate.f  LINE: 1 >>
+
+fstate   Variable 
+        << confspace  FILE: stateprop.f  LINE: 75 >>
+
+functiondtime   [UNRESOLVED] External 
+        
+
+functionexpval   [UNRESOLVED] External 
+        
+
+functionlasval   [UNRESOLVED] External 
+        
+
+getdip   Subroutine 
+        << FILE: getfile.f  LINE: 43 >>
+
+gethamil   Subroutine 
+        << FILE: getfile.f  LINE: 1 >>
+
+hamil(maxvec)   Argument 
+        << analyse  FILE: analyse.f  LINE: 1 >>
+
+hamil(maxvec)   Argument 
+        << gethamil  FILE: getfile.f  LINE: 1 >>
+
+hamil(maxvec)   Argument 
+        << propagate  FILE: propagate.f  LINE: 1 >>
+
+hamil(maxvec)   Variable 
+        << confspace  FILE: stateprop.f  LINE: 81 >>
+                                                                    Page 4     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+help(maxvec,maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 85 >>
+
+help   Variable 
+        << expval  FILE: propagate.f  LINE: 329 >>
+
+i   Variable 
+        << analyse  FILE: analyse.f  LINE: 14 >>
+
+i   Variable 
+        << gethamil  FILE: getfile.f  LINE: 25 >>
+
+i   Variable 
+        << getdip  FILE: getfile.f  LINE: 72 >>
+
+i   Variable 
+        << propagate  FILE: propagate.f  LINE: 78 >>
+
+i   Variable 
+        << exppot  FILE: propagate.f  LINE: 271 >>
+
+i   Variable 
+        << mtv  FILE: propagate.f  LINE: 296 >>
+
+i   Variable 
+        << expval  FILE: propagate.f  LINE: 330 >>
+
+i   Variable 
+        << vtv  FILE: propagate.f  LINE: 358 >>
+
+iarray(3)   Variable 
+        << setup  FILE: setup.f  LINE: 16 >>
+
+idate   [UNRESOLVED] Subroutine 
+        
+
+iday   Variable 
+        << setup  FILE: setup.f  LINE: 15 >>
+
+ifail   Variable 
+        << analyse  FILE: analyse.f  LINE: 15 >>
+
+ifail   Variable 
+        << gethamil  FILE: getfile.f  LINE: 24 >>
+
+ifail   Variable 
+        << getdip  FILE: getfile.f  LINE: 72 >>
+
+ifail   Variable 
+        << laser  FILE: laser.f  LINE: 20 >>
+
+ifail   Variable 
+        << option  FILE: option.f  LINE: 30 >>
+                                                                    Page 5     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+ifail   Variable 
+        << propagate  FILE: propagate.f  LINE: 78 >>
+
+ifail   Variable 
+        << setup  FILE: setup.f  LINE: 19 >>
+
+imon   Variable 
+        << setup  FILE: setup.f  LINE: 15 >>
+
+inverse(maxvec,maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 57 >>
+
+istate   Argument 
+        << option  FILE: option.f  LINE: 1 >>
+
+istate   Argument 
+        << propagate  FILE: propagate.f  LINE: 1 >>
+
+istate   Variable 
+        << confspace  FILE: stateprop.f  LINE: 74 >>
+
+itime   Variable 
+        << propagate  FILE: propagate.f  LINE: 70 >>
+
+itime   [UNRESOLVED] Subroutine 
+        
+
+iyear   Variable 
+        << setup  FILE: setup.f  LINE: 15 >>
+
+j   Variable 
+        << getdip  FILE: getfile.f  LINE: 72 >>
+
+j   Variable 
+        << propagate  FILE: propagate.f  LINE: 78 >>
+
+j   Variable 
+        << mtv  FILE: propagate.f  LINE: 296 >>
+
+k   Variable 
+        << propagate  FILE: propagate.f  LINE: 78 >>
+
+las   Parameter 
+        << param.inc  FILE: param.inc  LINE: 10 >>
+
+laser   Subroutine 
+        << FILE: laser.f  LINE: 1 >>
+
+lasfield   Common 
+        
+
+lasval   Function 
+        << FILE: laser.f  LINE: 65 >>
+                                                                    Page 6     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+lasval   Variable 
+        << lasval  FILE: laser.f  LINE: 83 >>
+
+ldat   Parameter 
+        << param.inc  FILE: param.inc  LINE: 11 >>
+
+lwork   Parameter 
+        << propagate  FILE: propagate.f  LINE: 64 >>
+
+maxvec   Parameter 
+        << param.inc  FILE: param.inc  LINE: 4 >>
+
+mp_set_numthreads   [UNRESOLVED] Subroutine 
+        
+
+mtv   Subroutine 
+        << FILE: propagate.f  LINE: 280 >>
+
+ncpu   Variable 
+        << option  FILE: option.f  LINE: 21 >>
+
+ndat   Parameter 
+        << param.inc  FILE: param.inc  LINE: 11 >>
+
+norm   Variable 
+        << analyse  FILE: analyse.f  LINE: 12 >>
+
+norm   Variable 
+        << propagate  FILE: propagate.f  LINE: 82 >>
+
+nout   Parameter 
+        << param.inc  FILE: param.inc  LINE: 10 >>
+
+ntot   Argument 
+        << analyse  FILE: analyse.f  LINE: 1 >>
+
+ntot   Argument 
+        << gethamil  FILE: getfile.f  LINE: 1 >>
+
+ntot   Argument 
+        << getdip  FILE: getfile.f  LINE: 43 >>
+
+ntot   Argument 
+        << option  FILE: option.f  LINE: 1 >>
+
+ntot   Argument 
+        << propagate  FILE: propagate.f  LINE: 1 >>
+
+ntot   Argument 
+        << exppot  FILE: propagate.f  LINE: 250 >>
+
+ntot   Argument 
+        << mtv  FILE: propagate.f  LINE: 280 >>
+                                                                    Page 7     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+ntot   Argument 
+        << expval  FILE: propagate.f  LINE: 309 >>
+
+ntot   Argument 
+        << vtv  FILE: propagate.f  LINE: 342 >>
+
+ntot   Variable 
+        << confspace  FILE: stateprop.f  LINE: 73 >>
+
+operator(maxvec)   Argument 
+        << expval  FILE: propagate.f  LINE: 309 >>
+
+operator(maxvec)   Argument 
+        << vtv  FILE: propagate.f  LINE: 342 >>
+
+opt   Parameter 
+        << param.inc  FILE: param.inc  LINE: 10 >>
+
+option   Subroutine 
+        << FILE: option.f  LINE: 1 >>
+
+pdat   Parameter 
+        << param.inc  FILE: param.inc  LINE: 11 >>
+
+pi   Variable 
+        << lasval  FILE: laser.f  LINE: 84 >>
+
+pot(maxvec,maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 28 >>
+
+potfac(maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 53 >>
+
+propagate   Subroutine 
+        << FILE: propagate.f  LINE: 1 >>
+
+psi(maxvec)   Argument 
+        << analyse  FILE: analyse.f  LINE: 1 >>
+
+psi(maxvec)   Argument 
+        << propagate  FILE: propagate.f  LINE: 1 >>
+
+psi(maxvec)   Argument 
+        << vtv  FILE: propagate.f  LINE: 342 >>
+
+psi(maxvec)   Variable 
+        << confspace  FILE: stateprop.f  LINE: 83 >>
+
+setup   Subroutine 
+        << FILE: setup.f  LINE: 1 >>
+
+stime   Variable 
+        << propagate  FILE: propagate.f  LINE: 74 >>
+                                                                    Page 8     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+tarray(2)   Variable 
+        << propagate  FILE: propagate.f  LINE: 73 >>
+
+time   Argument 
+        << lasval  FILE: laser.f  LINE: 65 >>
+
+time   Variable 
+        << propagate  FILE: propagate.f  LINE: 69 >>
+
+timestep   Argument 
+        << option  FILE: option.f  LINE: 1 >>
+
+timestep   Variable 
+        << confspace  FILE: stateprop.f  LINE: 76 >>
+
+todebye   Parameter 
+        << units.inc  FILE: units.inc  LINE: 10 >>
+
+toev   Parameter 
+        << units.inc  FILE: units.inc  LINE: 12 >>
+
+tofemts   Parameter 
+        << units.inc  FILE: units.inc  LINE: 13 >>
+
+togigav   Parameter 
+        << units.inc  FILE: units.inc  LINE: 11 >>
+
+tottime   Argument 
+        << option  FILE: option.f  LINE: 1 >>
+
+tottime   Variable 
+        << confspace  FILE: stateprop.f  LINE: 76 >>
+
+tpulse   Variable 
+        << laser  FILE: laser.f  LINE: 23 >>
+
+tpulse   Variable 
+        << lasval  FILE: laser.f  LINE: 86 >>
+
+trans(maxvec,maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 56 >>
+
+ttime   Argument 
+        << propagate  FILE: propagate.f  LINE: 1 >>
+
+unit(maxvec)   Variable 
+        << analyse  FILE: analyse.f  LINE: 11 >>
+
+unit(maxvec)   Variable 
+        << propagate  FILE: propagate.f  LINE: 30 >>
+
+v(maxvec)   Argument 
+        << mtv  FILE: propagate.f  LINE: 280 >>
+                                                                    Page 9     
+                         DATA DICTIONARY SUMMARY REPORT
+===============================================================================
+
+vtv   Subroutine 
+        << FILE: propagate.f  LINE: 342 >>
+
+w(maxvec)   Argument 
+        << mtv  FILE: propagate.f  LINE: 280 >>
+
+w(maxvec)   Argument 
+        << expval  FILE: propagate.f  LINE: 309 >>
+
+wave   Parameter 
+        << param.inc  FILE: param.inc  LINE: 10 >>
+
+work(lwork)   Variable 
+        << propagate  FILE: propagate.f  LINE: 66 >>
+
+wout   Parameter 
+        << param.inc  FILE: param.inc  LINE: 12 >>
+
+zabs   [UNRESOLVED] Function 
+        
+                                                                    Page 10    
+                       SUBPROGRAM CROSS REFERENCE REPORT
+===============================================================================
+
+analyse   Subroutine 
+        DECL      FILE: analyse.f  LINE: 1
+        USE       FILE: stateprop.f  LINE: 93
+
+confspace   Program 
+        DECL      FILE: stateprop.f  LINE: 1
+
+devcsf   [UNRESOLVED] Subroutine 
+        USE       FILE: propagate.f  LINE: 157
+
+dlinrg   [UNRESOLVED] Subroutine 
+        USE       FILE: propagate.f  LINE: 161
+
+dtime   [UNRESOLVED] Function 
+        USE       FILE: propagate.f  LINE: 116
+        USE       FILE: propagate.f  LINE: 230
+
+exit   [UNRESOLVED] Subroutine 
+        USE       FILE: analyse.f  LINE: 34
+        USE       FILE: getfile.f  LINE: 30
+        USE       FILE: getfile.f  LINE: 78
+        USE       FILE: laser.f  LINE: 29
+        USE       FILE: laser.f  LINE: 36
+        USE       FILE: option.f  LINE: 36
+        USE       FILE: option.f  LINE: 46
+        USE       FILE: option.f  LINE: 54
+        USE       FILE: setup.f  LINE: 28
+        USE       FILE: setup.f  LINE: 41
+        USE       FILE: setup.f  LINE: 47
+        USE       FILE: setup.f  LINE: 53
+        USE       FILE: setup.f  LINE: 59
+
+exppot   Subroutine 
+        USE       FILE: propagate.f  LINE: 175
+        USE       FILE: propagate.f  LINE: 214
+        DECL      FILE: propagate.f  LINE: 250
+
+expval   Function 
+    Declared As: [IMPL] REAL
+        USE       FILE: analyse.f  LINE: 23
+        USE       FILE: analyse.f  LINE: 24
+        USE       FILE: propagate.f  LINE: 137
+        USE       FILE: propagate.f  LINE: 138
+        USE       FILE: propagate.f  LINE: 193
+        USE       FILE: propagate.f  LINE: 194
+        DECL      FILE: propagate.f  LINE: 309
+        SET       FILE: propagate.f  LINE: 337
+
+functiondtime   [UNRESOLVED] External 
+        EXTRN     FILE: propagate.f  LINE: 105
+
+functionexpval   [UNRESOLVED] External 
+        EXTRN     FILE: analyse.f  LINE: 17
+        EXTRN     FILE: propagate.f  LINE: 107
+                                                                    Page 11    
+                       SUBPROGRAM CROSS REFERENCE REPORT
+===============================================================================
+
+functionlasval   [UNRESOLVED] External 
+        EXTRN     FILE: propagate.f  LINE: 106
+
+getdip   Subroutine 
+        DECL      FILE: getfile.f  LINE: 43
+        USE       FILE: stateprop.f  LINE: 90
+
+gethamil   Subroutine 
+        DECL      FILE: getfile.f  LINE: 1
+        USE       FILE: stateprop.f  LINE: 89
+
+idate   [UNRESOLVED] Subroutine 
+        USE       FILE: setup.f  LINE: 21
+
+itime   [UNRESOLVED] Subroutine 
+        USE       FILE: setup.f  LINE: 22
+
+laser   Subroutine 
+        DECL      FILE: laser.f  LINE: 1
+        USE       FILE: stateprop.f  LINE: 88
+
+lasval   Function 
+    Declared As: [IMPL] INTEGER
+        DECL      FILE: laser.f  LINE: 65
+        USE       FILE: propagate.f  LINE: 171
+        USE       FILE: propagate.f  LINE: 213
+
+mp_set_numthreads   [UNRESOLVED] Subroutine 
+        USE       FILE: option.f  LINE: 71
+
+mtv   Subroutine 
+        USE       FILE: propagate.f  LINE: 183
+        USE       FILE: propagate.f  LINE: 189
+        USE       FILE: propagate.f  LINE: 220
+        USE       FILE: propagate.f  LINE: 226
+        DECL      FILE: propagate.f  LINE: 280
+
+option   Subroutine 
+        DECL      FILE: option.f  LINE: 1
+        USE       FILE: stateprop.f  LINE: 87
+
+propagate   Subroutine 
+        DECL      FILE: propagate.f  LINE: 1
+        USE       FILE: stateprop.f  LINE: 91
+
+setup   Subroutine 
+        DECL      FILE: setup.f  LINE: 1
+        USE       FILE: stateprop.f  LINE: 86
+
+vtv   Subroutine 
+        USE       FILE: propagate.f  LINE: 148
+        USE       FILE: propagate.f  LINE: 184
+        USE       FILE: propagate.f  LINE: 190
+        USE       FILE: propagate.f  LINE: 203
+        USE       FILE: propagate.f  LINE: 221
+                                                                    Page 12    
+                       SUBPROGRAM CROSS REFERENCE REPORT
+===============================================================================
+
+vtv [CONTINUED]
+
+        USE       FILE: propagate.f  LINE: 227
+        DECL      FILE: propagate.f  LINE: 342
+
+zabs   [UNRESOLVED] Function 
+        USE       FILE: analyse.f  LINE: 38
+        USE       FILE: propagate.f  LINE: 196
+        USE       FILE: propagate.f  LINE: 334
+                                                                    Page 13    
+                   INTRINSIC FUNCTION CROSS REFERENCE REPORT
+===============================================================================
+
+abs
+        FILE: analyse.f  LINE: 28
+
+acos
+        FILE: laser.f  LINE: 89
+
+dcmplx
+        FILE: propagate.f  LINE: 301
+
+dcos
+        FILE: laser.f  LINE: 90
+
+dsin
+        FILE: laser.f  LINE: 90
+
+dsqrt
+        FILE: propagate.f  LINE: 137
+        FILE: propagate.f  LINE: 193
+
+exp
+        FILE: propagate.f  LINE: 125
+        FILE: propagate.f  LINE: 126
+        FILE: propagate.f  LINE: 274
+
+real
+        FILE: propagate.f  LINE: 170
+        FILE: propagate.f  LINE: 212
+                                                                    Page 14    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+a(maxvec,maxvec)   Argument 
+    Declared In: mtv
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 280
+        DECL      FILE: propagate.f  LINE: 291
+        USE       FILE: propagate.f  LINE: 301
+
+adia(maxvec)   Variable 
+    Declared In: propagate
+    Declared As: COMPLEX*16
+        DECL      FILE: propagate.f  LINE: 46
+        USE       FILE: propagate.f  LINE: 183
+        USE       FILE: propagate.f  LINE: 184
+        USE       FILE: propagate.f  LINE: 189
+        USE       FILE: propagate.f  LINE: 220
+        USE       FILE: propagate.f  LINE: 221
+        USE       FILE: propagate.f  LINE: 226
+
+cart   Argument 
+    Declared In: getdip
+    Declared As: CHARACTER*1
+        ARG       FILE: getfile.f  LINE: 43
+        DECL      FILE: getfile.f  LINE: 68
+        USE       FILE: getfile.f  LINE: 74
+        USE       FILE: getfile.f  LINE: 75
+
+cart   Argument 
+    Declared In: option
+    Declared As: CHARACTER*1
+        ARG       FILE: option.f  LINE: 1
+        DECL      FILE: option.f  LINE: 25
+        USE       FILE: option.f  LINE: 60
+
+cart   Variable 
+    Declared In: confspace
+    Declared As: CHARACTER*1
+        DECL      FILE: stateprop.f  LINE: 78
+        USE       FILE: stateprop.f  LINE: 87
+        USE       FILE: stateprop.f  LINE: 90
+
+cim   Parameter 
+    Declared In: param.inc
+    Declared As: COMPLEX*16
+        INCDECL   FILE: param.inc  LINE: 27
+        SET       FILE: param.inc  LINE: 28
+
+cone   Parameter 
+    Declared In: param.inc
+    Declared As: COMPLEX*16
+        INCDECL   FILE: param.inc  LINE: 27
+        SET       FILE: param.inc  LINE: 28
+        USE       FILE: propagate.f  LINE: 135
+                                                                    Page 15    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+czero   Parameter 
+    Declared In: param.inc
+    Declared As: COMPLEX*16
+        INCDECL   FILE: param.inc  LINE: 27
+        SET       FILE: param.inc  LINE: 28
+        USE       FILE: propagate.f  LINE: 133
+
+diag(maxvec)   Argument 
+    Declared In: exppot
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 250
+        DECL      FILE: propagate.f  LINE: 262
+        USE       FILE: propagate.f  LINE: 274
+
+dip   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 10
+        SET       FILE: param.inc  LINE: 16
+
+dipdiag(maxvec)   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 52
+        USE       FILE: propagate.f  LINE: 157
+        USE       FILE: propagate.f  LINE: 175
+        USE       FILE: propagate.f  LINE: 214
+
+dipol(maxvec,maxvec)   Argument 
+    Declared In: getdip
+    Declared As: REAL*8
+        ARG       FILE: getfile.f  LINE: 43
+        DECL      FILE: getfile.f  LINE: 69
+        USE       FILE: getfile.f  LINE: 84
+        SET       FILE: getfile.f  LINE: 84
+
+dipol(maxvec,maxvec)   Argument 
+    Declared In: propagate
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 1
+        DECL      FILE: propagate.f  LINE: 27
+        USE       FILE: propagate.f  LINE: 154
+
+dipol(maxvec,maxvec)   Variable 
+    Declared In: confspace
+    Declared As: REAL*8
+        DECL      FILE: stateprop.f  LINE: 79
+        USE       FILE: stateprop.f  LINE: 90
+        USE       FILE: stateprop.f  LINE: 91
+
+dt   Argument 
+    Declared In: propagate
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 1
+        DECL      FILE: propagate.f  LINE: 33
+                                                                    Page 16    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+dt [CONTINUED]
+
+        USE       FILE: propagate.f  LINE: 125
+        USE       FILE: propagate.f  LINE: 126
+        USE       FILE: propagate.f  LINE: 170
+        USE       FILE: propagate.f  LINE: 175
+        USE       FILE: propagate.f  LINE: 212
+        USE       FILE: propagate.f  LINE: 214
+
+dt   Argument 
+    Declared In: exppot
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 250
+        DECL      FILE: propagate.f  LINE: 268
+        USE       FILE: propagate.f  LINE: 274
+
+edat   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 11
+        SET       FILE: param.inc  LINE: 18
+
+efield   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 60
+        SET       FILE: propagate.f  LINE: 171
+        USE       FILE: propagate.f  LINE: 175
+        USE       FILE: propagate.f  LINE: 199
+        SET       FILE: propagate.f  LINE: 213
+        USE       FILE: propagate.f  LINE: 214
+
+efield   Argument 
+    Declared In: exppot
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 250
+        DECL      FILE: propagate.f  LINE: 268
+        USE       FILE: propagate.f  LINE: 274
+
+ehalfpsi(maxvec)   Variable 
+    Declared In: propagate
+    Declared As: COMPLEX*16
+        DECL      FILE: propagate.f  LINE: 48
+        SET       FILE: propagate.f  LINE: 126
+        USE       FILE: propagate.f  LINE: 148
+        USE       FILE: propagate.f  LINE: 190
+        USE       FILE: propagate.f  LINE: 203
+        USE       FILE: propagate.f  LINE: 227
+
+energy   Variable 
+    Declared In: analyse
+    Declared As: REAL*8
+        DECL      FILE: analyse.f  LINE: 12
+        SET       FILE: analyse.f  LINE: 24
+        USE       FILE: analyse.f  LINE: 27
+                                                                    Page 17    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+energy   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 82
+        SET       FILE: propagate.f  LINE: 138
+        USE       FILE: propagate.f  LINE: 142
+        SET       FILE: propagate.f  LINE: 194
+        USE       FILE: propagate.f  LINE: 198
+
+epsi(maxvec)   Variable 
+    Declared In: propagate
+    Declared As: COMPLEX*16
+        DECL      FILE: propagate.f  LINE: 47
+        SET       FILE: propagate.f  LINE: 125
+
+ezero   Variable 
+    Declared In: laser
+    Declared As: REAL*8
+    Element 1 in COMMON 'lasfield'
+        DECL      FILE: laser.f  LINE: 23
+        DECL      FILE: laser.f  LINE: 24
+        COMM      FILE: laser.f  LINE: 24
+        USE       FILE: laser.f  LINE: 43
+        USE       FILE: laser.f  LINE: 49
+        SET       FILE: laser.f  LINE: 49
+
+ezero   Variable 
+    Declared In: lasval
+    Declared As: REAL*8
+    Element 1 in COMMON 'lasfield'
+        DECL      FILE: laser.f  LINE: 86
+        DECL      FILE: laser.f  LINE: 87
+        COMM      FILE: laser.f  LINE: 87
+        USE       FILE: laser.f  LINE: 90
+
+fac(maxvec)   Argument 
+    Declared In: exppot
+    Declared As: COMPLEX*16
+        ARG       FILE: propagate.f  LINE: 250
+        DECL      FILE: propagate.f  LINE: 265
+        SET       FILE: propagate.f  LINE: 274
+
+fac   Argument 
+    Declared In: mtv
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 280
+        DECL      FILE: propagate.f  LINE: 292
+        USE       FILE: propagate.f  LINE: 301
+
+freq   Variable 
+    Declared In: laser
+    Declared As: REAL*8
+    Element 2 in COMMON 'lasfield'
+        DECL      FILE: laser.f  LINE: 23
+        DECL      FILE: laser.f  LINE: 24
+                                                                    Page 18    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+freq [CONTINUED]
+
+        COMM      FILE: laser.f  LINE: 24
+        USE       FILE: laser.f  LINE: 44
+        USE       FILE: laser.f  LINE: 50
+        SET       FILE: laser.f  LINE: 50
+
+freq   Variable 
+    Declared In: lasval
+    Declared As: REAL*8
+    Element 2 in COMMON 'lasfield'
+        DECL      FILE: laser.f  LINE: 86
+        DECL      FILE: laser.f  LINE: 87
+        COMM      FILE: laser.f  LINE: 87
+        USE       FILE: laser.f  LINE: 90
+
+fromdebye   Parameter 
+    Declared In: units.inc
+    Declared As: REAL*8
+        INCDECL   FILE: units.inc  LINE: 23
+        SET       FILE: units.inc  LINE: 28
+        USE       FILE: getfile.f  LINE: 84
+
+fromev   Parameter 
+    Declared In: units.inc
+    Declared As: REAL*8
+        INCDECL   FILE: units.inc  LINE: 25
+        SET       FILE: units.inc  LINE: 30
+        USE       FILE: getfile.f  LINE: 35
+        USE       FILE: laser.f  LINE: 50
+
+fromfemts   Parameter 
+    Declared In: units.inc
+    Declared As: REAL*8
+        INCDECL   FILE: units.inc  LINE: 26
+        SET       FILE: units.inc  LINE: 31
+        USE       FILE: laser.f  LINE: 51
+        USE       FILE: option.f  LINE: 68
+
+fromgigav   Parameter 
+    Declared In: units.inc
+    Declared As: REAL*8
+        INCDECL   FILE: units.inc  LINE: 24
+        SET       FILE: units.inc  LINE: 29
+        USE       FILE: laser.f  LINE: 49
+
+fstate   Argument 
+    Declared In: analyse
+    Declared As: INTEGER
+        ARG       FILE: analyse.f  LINE: 1
+        DECL      FILE: analyse.f  LINE: 8
+        USE       FILE: analyse.f  LINE: 28
+                                                                    Page 19    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+fstate   Argument 
+    Declared In: option
+    Declared As: INTEGER
+        ARG       FILE: option.f  LINE: 1
+        DECL      FILE: option.f  LINE: 24
+        USE       FILE: option.f  LINE: 64
+
+fstate   Argument 
+    Declared In: propagate
+    Declared As: INTEGER
+        ARG       FILE: propagate.f  LINE: 1
+        DECL      FILE: propagate.f  LINE: 37
+        USE       FILE: propagate.f  LINE: 196
+
+fstate   Variable 
+    Declared In: confspace
+    Declared As: INTEGER
+        DECL      FILE: stateprop.f  LINE: 75
+        USE       FILE: stateprop.f  LINE: 87
+        USE       FILE: stateprop.f  LINE: 91
+        USE       FILE: stateprop.f  LINE: 93
+
+hamil(maxvec)   Argument 
+    Declared In: analyse
+    Declared As: REAL*8
+        ARG       FILE: analyse.f  LINE: 1
+        DECL      FILE: analyse.f  LINE: 10
+        USE       FILE: analyse.f  LINE: 24
+
+hamil(maxvec)   Argument 
+    Declared In: gethamil
+    Declared As: REAL*8
+        ARG       FILE: getfile.f  LINE: 1
+        DECL      FILE: getfile.f  LINE: 21
+        USE       FILE: getfile.f  LINE: 35
+        SET       FILE: getfile.f  LINE: 35
+
+hamil(maxvec)   Argument 
+    Declared In: propagate
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 1
+        DECL      FILE: propagate.f  LINE: 24
+        USE       FILE: propagate.f  LINE: 125
+        USE       FILE: propagate.f  LINE: 126
+        USE       FILE: propagate.f  LINE: 138
+        USE       FILE: propagate.f  LINE: 194
+
+hamil(maxvec)   Variable 
+    Declared In: confspace
+    Declared As: REAL*8
+        DECL      FILE: stateprop.f  LINE: 81
+        USE       FILE: stateprop.f  LINE: 89
+        USE       FILE: stateprop.f  LINE: 91
+        USE       FILE: stateprop.f  LINE: 93
+                                                                    Page 20    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+help(maxvec,maxvec)   Variable 
+    Declared In: propagate
+    Declared As: COMPLEX*16
+        DECL      FILE: propagate.f  LINE: 85
+
+help   Variable 
+    Declared In: expval
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 329
+        SET       FILE: propagate.f  LINE: 332
+        USE       FILE: propagate.f  LINE: 334
+        SET       FILE: propagate.f  LINE: 334
+        USE       FILE: propagate.f  LINE: 337
+
+i   Variable 
+    Declared In: analyse
+    Declared As: INTEGER
+        DECL      FILE: analyse.f  LINE: 14
+        SET       FILE: analyse.f  LINE: 19
+        USE       FILE: analyse.f  LINE: 20
+        SET       FILE: analyse.f  LINE: 37
+        USE       FILE: analyse.f  LINE: 38
+        USE       FILE: analyse.f  LINE: 38
+
+i   Variable 
+    Declared In: gethamil
+    Declared As: INTEGER
+        DECL      FILE: getfile.f  LINE: 25
+        SET       FILE: getfile.f  LINE: 32
+        USE       FILE: getfile.f  LINE: 33
+        USE       FILE: getfile.f  LINE: 35
+        USE       FILE: getfile.f  LINE: 35
+
+i   Variable 
+    Declared In: getdip
+    Declared As: INTEGER
+        DECL      FILE: getfile.f  LINE: 72
+        SET       FILE: getfile.f  LINE: 80
+        USE       FILE: getfile.f  LINE: 82
+        USE       FILE: getfile.f  LINE: 84
+        USE       FILE: getfile.f  LINE: 84
+
+i   Variable 
+    Declared In: propagate
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 78
+        SET       FILE: propagate.f  LINE: 123
+        USE       FILE: propagate.f  LINE: 124
+        USE       FILE: propagate.f  LINE: 125
+        USE       FILE: propagate.f  LINE: 125
+        USE       FILE: propagate.f  LINE: 126
+        USE       FILE: propagate.f  LINE: 126
+        SET       FILE: propagate.f  LINE: 132
+        USE       FILE: propagate.f  LINE: 133
+        SET       FILE: propagate.f  LINE: 152
+                                                                    Page 21    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+i [CONTINUED]
+
+        USE       FILE: propagate.f  LINE: 154
+        USE       FILE: propagate.f  LINE: 154
+
+i   Variable 
+    Declared In: exppot
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 271
+        SET       FILE: propagate.f  LINE: 273
+        USE       FILE: propagate.f  LINE: 274
+        USE       FILE: propagate.f  LINE: 274
+
+i   Variable 
+    Declared In: mtv
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 296
+        SET       FILE: propagate.f  LINE: 298
+        USE       FILE: propagate.f  LINE: 299
+        USE       FILE: propagate.f  LINE: 301
+        USE       FILE: propagate.f  LINE: 301
+        USE       FILE: propagate.f  LINE: 301
+
+i   Variable 
+    Declared In: expval
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 330
+        SET       FILE: propagate.f  LINE: 333
+        USE       FILE: propagate.f  LINE: 334
+        USE       FILE: propagate.f  LINE: 334
+
+i   Variable 
+    Declared In: vtv
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 358
+        SET       FILE: propagate.f  LINE: 360
+        USE       FILE: propagate.f  LINE: 361
+        USE       FILE: propagate.f  LINE: 361
+        USE       FILE: propagate.f  LINE: 361
+
+iarray(3)   Variable 
+    Declared In: setup
+    Declared As: INTEGER
+        DECL      FILE: setup.f  LINE: 16
+        USE       FILE: setup.f  LINE: 22
+        USE       FILE: setup.f  LINE: 32
+
+iday   Variable 
+    Declared In: setup
+    Declared As: INTEGER
+        DECL      FILE: setup.f  LINE: 15
+        USE       FILE: setup.f  LINE: 21
+        USE       FILE: setup.f  LINE: 32
+                                                                    Page 22    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+ifail   Variable 
+    Declared In: analyse
+    Declared As: INTEGER
+        DECL      FILE: analyse.f  LINE: 15
+        USE       FILE: analyse.f  LINE: 30
+        USE       FILE: analyse.f  LINE: 32
+
+ifail   Variable 
+    Declared In: gethamil
+    Declared As: INTEGER
+        DECL      FILE: getfile.f  LINE: 24
+        USE       FILE: getfile.f  LINE: 27
+        USE       FILE: getfile.f  LINE: 28
+
+ifail   Variable 
+    Declared In: getdip
+    Declared As: INTEGER
+        DECL      FILE: getfile.f  LINE: 72
+        USE       FILE: getfile.f  LINE: 75
+        USE       FILE: getfile.f  LINE: 76
+
+ifail   Variable 
+    Declared In: laser
+    Declared As: INTEGER
+        DECL      FILE: laser.f  LINE: 20
+        USE       FILE: laser.f  LINE: 26
+        USE       FILE: laser.f  LINE: 27
+        USE       FILE: laser.f  LINE: 31
+        USE       FILE: laser.f  LINE: 32
+        USE       FILE: laser.f  LINE: 33
+        USE       FILE: laser.f  LINE: 34
+
+ifail   Variable 
+    Declared In: option
+    Declared As: INTEGER
+        DECL      FILE: option.f  LINE: 30
+        USE       FILE: option.f  LINE: 33
+        USE       FILE: option.f  LINE: 34
+        USE       FILE: option.f  LINE: 38
+        USE       FILE: option.f  LINE: 39
+        USE       FILE: option.f  LINE: 40
+        USE       FILE: option.f  LINE: 41
+        USE       FILE: option.f  LINE: 42
+        USE       FILE: option.f  LINE: 43
+        USE       FILE: option.f  LINE: 44
+
+ifail   Variable 
+    Declared In: propagate
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 78
+
+ifail   Variable 
+    Declared In: setup
+    Declared As: INTEGER
+        DECL      FILE: setup.f  LINE: 19
+                                                                    Page 23    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+ifail [CONTINUED]
+
+        USE       FILE: setup.f  LINE: 24
+        USE       FILE: setup.f  LINE: 26
+        USE       FILE: setup.f  LINE: 37
+        USE       FILE: setup.f  LINE: 39
+        USE       FILE: setup.f  LINE: 43
+        USE       FILE: setup.f  LINE: 45
+        USE       FILE: setup.f  LINE: 49
+        USE       FILE: setup.f  LINE: 51
+        USE       FILE: setup.f  LINE: 55
+        USE       FILE: setup.f  LINE: 57
+
+imon   Variable 
+    Declared In: setup
+    Declared As: INTEGER
+        DECL      FILE: setup.f  LINE: 15
+        USE       FILE: setup.f  LINE: 21
+        USE       FILE: setup.f  LINE: 32
+
+inverse(maxvec,maxvec)   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 57
+        USE       FILE: propagate.f  LINE: 161
+        USE       FILE: propagate.f  LINE: 183
+        USE       FILE: propagate.f  LINE: 220
+
+istate   Argument 
+    Declared In: option
+    Declared As: INTEGER
+        ARG       FILE: option.f  LINE: 1
+        DECL      FILE: option.f  LINE: 23
+        USE       FILE: option.f  LINE: 63
+
+istate   Argument 
+    Declared In: propagate
+    Declared As: INTEGER
+        ARG       FILE: propagate.f  LINE: 1
+        DECL      FILE: propagate.f  LINE: 37
+        USE       FILE: propagate.f  LINE: 135
+
+istate   Variable 
+    Declared In: confspace
+    Declared As: INTEGER
+        DECL      FILE: stateprop.f  LINE: 74
+        USE       FILE: stateprop.f  LINE: 87
+        USE       FILE: stateprop.f  LINE: 91
+
+itime   Variable 
+    Declared In: propagate
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 70
+        SET       FILE: propagate.f  LINE: 166
+        USE       FILE: propagate.f  LINE: 170
+                                                                    Page 24    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+itime [CONTINUED]
+
+        SET       FILE: propagate.f  LINE: 211
+        USE       FILE: propagate.f  LINE: 212
+
+iyear   Variable 
+    Declared In: setup
+    Declared As: INTEGER
+        DECL      FILE: setup.f  LINE: 15
+        USE       FILE: setup.f  LINE: 21
+        USE       FILE: setup.f  LINE: 32
+
+j   Variable 
+    Declared In: getdip
+    Declared As: INTEGER
+        DECL      FILE: getfile.f  LINE: 72
+        SET       FILE: getfile.f  LINE: 81
+        USE       FILE: getfile.f  LINE: 82
+        USE       FILE: getfile.f  LINE: 84
+        USE       FILE: getfile.f  LINE: 84
+
+j   Variable 
+    Declared In: propagate
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 78
+        SET       FILE: propagate.f  LINE: 153
+        USE       FILE: propagate.f  LINE: 154
+        USE       FILE: propagate.f  LINE: 154
+
+j   Variable 
+    Declared In: mtv
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 296
+        SET       FILE: propagate.f  LINE: 300
+        USE       FILE: propagate.f  LINE: 301
+        USE       FILE: propagate.f  LINE: 301
+
+k   Variable 
+    Declared In: propagate
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 78
+
+las   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 10
+        SET       FILE: param.inc  LINE: 14
+
+lasval   Variable 
+    Declared In: lasval
+    Declared As: REAL*8
+        DECL      FILE: laser.f  LINE: 83
+        SET       FILE: laser.f  LINE: 90
+                                                                    Page 25    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+ldat   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 11
+        SET       FILE: param.inc  LINE: 20
+
+lwork   Parameter 
+    Declared In: propagate
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 64
+        SET       FILE: propagate.f  LINE: 65
+        USE       FILE: propagate.f  LINE: 66
+
+maxvec   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 4
+        SET       FILE: param.inc  LINE: 5
+        USE       FILE: analyse.f  LINE: 9
+        USE       FILE: analyse.f  LINE: 10
+        USE       FILE: analyse.f  LINE: 11
+        USE       FILE: getfile.f  LINE: 21
+        USE       FILE: getfile.f  LINE: 69
+        USE       FILE: getfile.f  LINE: 69
+        USE       FILE: option.f  LINE: 52
+        USE       FILE: option.f  LINE: 53
+        USE       FILE: propagate.f  LINE: 24
+        USE       FILE: propagate.f  LINE: 27
+        USE       FILE: propagate.f  LINE: 27
+        USE       FILE: propagate.f  LINE: 28
+        USE       FILE: propagate.f  LINE: 28
+        USE       FILE: propagate.f  LINE: 30
+        USE       FILE: propagate.f  LINE: 45
+        USE       FILE: propagate.f  LINE: 46
+        USE       FILE: propagate.f  LINE: 47
+        USE       FILE: propagate.f  LINE: 48
+        USE       FILE: propagate.f  LINE: 52
+        USE       FILE: propagate.f  LINE: 53
+        USE       FILE: propagate.f  LINE: 56
+        USE       FILE: propagate.f  LINE: 56
+        USE       FILE: propagate.f  LINE: 57
+        USE       FILE: propagate.f  LINE: 57
+        USE       FILE: propagate.f  LINE: 65
+        USE       FILE: propagate.f  LINE: 85
+        USE       FILE: propagate.f  LINE: 85
+        USE       FILE: propagate.f  LINE: 157
+        USE       FILE: propagate.f  LINE: 157
+        USE       FILE: propagate.f  LINE: 161
+        USE       FILE: propagate.f  LINE: 161
+        USE       FILE: propagate.f  LINE: 262
+        USE       FILE: propagate.f  LINE: 265
+        USE       FILE: propagate.f  LINE: 291
+        USE       FILE: propagate.f  LINE: 291
+        USE       FILE: propagate.f  LINE: 293
+        USE       FILE: propagate.f  LINE: 294
+                                                                    Page 26    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+maxvec [CONTINUED]
+
+        USE       FILE: propagate.f  LINE: 326
+        USE       FILE: propagate.f  LINE: 327
+        USE       FILE: propagate.f  LINE: 355
+        USE       FILE: propagate.f  LINE: 356
+        USE       FILE: stateprop.f  LINE: 79
+        USE       FILE: stateprop.f  LINE: 79
+        USE       FILE: stateprop.f  LINE: 81
+        USE       FILE: stateprop.f  LINE: 83
+
+ncpu   Variable 
+    Declared In: option
+    Declared As: INTEGER
+        DECL      FILE: option.f  LINE: 21
+        USE       FILE: option.f  LINE: 58
+        USE       FILE: option.f  LINE: 71
+
+ndat   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 11
+        SET       FILE: param.inc  LINE: 19
+
+norm   Variable 
+    Declared In: analyse
+    Declared As: REAL*8
+        DECL      FILE: analyse.f  LINE: 12
+        SET       FILE: analyse.f  LINE: 23
+        USE       FILE: analyse.f  LINE: 26
+
+norm   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 82
+        SET       FILE: propagate.f  LINE: 137
+        USE       FILE: propagate.f  LINE: 141
+        SET       FILE: propagate.f  LINE: 193
+        USE       FILE: propagate.f  LINE: 197
+
+nout   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 10
+        SET       FILE: param.inc  LINE: 17
+
+ntot   Argument 
+    Declared In: analyse
+    Declared As: INTEGER
+        ARG       FILE: analyse.f  LINE: 1
+        DECL      FILE: analyse.f  LINE: 7
+        USE       FILE: analyse.f  LINE: 19
+        USE       FILE: analyse.f  LINE: 23
+        USE       FILE: analyse.f  LINE: 24
+        USE       FILE: analyse.f  LINE: 37
+                                                                    Page 27    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+ntot   Argument 
+    Declared In: gethamil
+    Declared As: INTEGER
+        ARG       FILE: getfile.f  LINE: 1
+        DECL      FILE: getfile.f  LINE: 20
+        USE       FILE: getfile.f  LINE: 32
+
+ntot   Argument 
+    Declared In: getdip
+    Declared As: INTEGER
+        ARG       FILE: getfile.f  LINE: 43
+        DECL      FILE: getfile.f  LINE: 67
+        USE       FILE: getfile.f  LINE: 80
+        USE       FILE: getfile.f  LINE: 81
+
+ntot   Argument 
+    Declared In: option
+    Declared As: INTEGER
+        ARG       FILE: option.f  LINE: 1
+        DECL      FILE: option.f  LINE: 22
+        USE       FILE: option.f  LINE: 52
+        USE       FILE: option.f  LINE: 53
+        USE       FILE: option.f  LINE: 59
+
+ntot   Argument 
+    Declared In: propagate
+    Declared As: INTEGER
+        ARG       FILE: propagate.f  LINE: 1
+        DECL      FILE: propagate.f  LINE: 23
+        USE       FILE: propagate.f  LINE: 123
+        USE       FILE: propagate.f  LINE: 132
+        USE       FILE: propagate.f  LINE: 137
+        USE       FILE: propagate.f  LINE: 138
+        USE       FILE: propagate.f  LINE: 148
+        USE       FILE: propagate.f  LINE: 152
+        USE       FILE: propagate.f  LINE: 153
+        USE       FILE: propagate.f  LINE: 157
+        USE       FILE: propagate.f  LINE: 161
+        USE       FILE: propagate.f  LINE: 175
+        USE       FILE: propagate.f  LINE: 183
+        USE       FILE: propagate.f  LINE: 184
+        USE       FILE: propagate.f  LINE: 189
+        USE       FILE: propagate.f  LINE: 190
+        USE       FILE: propagate.f  LINE: 193
+        USE       FILE: propagate.f  LINE: 194
+        USE       FILE: propagate.f  LINE: 203
+        USE       FILE: propagate.f  LINE: 214
+        USE       FILE: propagate.f  LINE: 220
+        USE       FILE: propagate.f  LINE: 221
+        USE       FILE: propagate.f  LINE: 226
+        USE       FILE: propagate.f  LINE: 227
+
+ntot   Argument 
+    Declared In: exppot
+    Declared As: INTEGER
+                                                                    Page 28    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+ntot [CONTINUED]
+
+        ARG       FILE: propagate.f  LINE: 250
+        DECL      FILE: propagate.f  LINE: 261
+        USE       FILE: propagate.f  LINE: 273
+
+ntot   Argument 
+    Declared In: mtv
+    Declared As: INTEGER
+        ARG       FILE: propagate.f  LINE: 280
+        DECL      FILE: propagate.f  LINE: 290
+        USE       FILE: propagate.f  LINE: 298
+        USE       FILE: propagate.f  LINE: 300
+
+ntot   Argument 
+    Declared In: expval
+    Declared As: INTEGER
+        ARG       FILE: propagate.f  LINE: 309
+        DECL      FILE: propagate.f  LINE: 325
+        USE       FILE: propagate.f  LINE: 333
+
+ntot   Argument 
+    Declared In: vtv
+    Declared As: INTEGER
+        ARG       FILE: propagate.f  LINE: 342
+        DECL      FILE: propagate.f  LINE: 354
+        USE       FILE: propagate.f  LINE: 360
+
+ntot   Variable 
+    Declared In: confspace
+    Declared As: INTEGER
+        DECL      FILE: stateprop.f  LINE: 73
+        USE       FILE: stateprop.f  LINE: 87
+        USE       FILE: stateprop.f  LINE: 89
+        USE       FILE: stateprop.f  LINE: 90
+        USE       FILE: stateprop.f  LINE: 91
+        USE       FILE: stateprop.f  LINE: 93
+
+operator(maxvec)   Argument 
+    Declared In: expval
+    Declared As: REAL*8
+        ARG       FILE: propagate.f  LINE: 309
+        DECL      FILE: propagate.f  LINE: 326
+        USE       FILE: propagate.f  LINE: 334
+
+operator(maxvec)   Argument 
+    Declared In: vtv
+    Declared As: COMPLEX*16
+        ARG       FILE: propagate.f  LINE: 342
+        DECL      FILE: propagate.f  LINE: 355
+        USE       FILE: propagate.f  LINE: 361
+
+opt   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+                                                                    Page 29    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+opt [CONTINUED]
+
+        INCDECL   FILE: param.inc  LINE: 10
+        SET       FILE: param.inc  LINE: 13
+
+pdat   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 11
+        SET       FILE: param.inc  LINE: 21
+
+pi   Variable 
+    Declared In: lasval
+    Declared As: REAL*8
+        DECL      FILE: laser.f  LINE: 84
+        SET       FILE: laser.f  LINE: 89
+        USE       FILE: laser.f  LINE: 90
+
+pot(maxvec,maxvec)   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 28
+        SET       FILE: propagate.f  LINE: 154
+        USE       FILE: propagate.f  LINE: 157
+
+potfac(maxvec)   Variable 
+    Declared In: propagate
+    Declared As: COMPLEX*16
+        DECL      FILE: propagate.f  LINE: 53
+        USE       FILE: propagate.f  LINE: 175
+        USE       FILE: propagate.f  LINE: 184
+        USE       FILE: propagate.f  LINE: 214
+        USE       FILE: propagate.f  LINE: 221
+
+psi(maxvec)   Argument 
+    Declared In: analyse
+    Declared As: COMPLEX*16
+        ARG       FILE: analyse.f  LINE: 1
+        DECL      FILE: analyse.f  LINE: 9
+        USE       FILE: analyse.f  LINE: 23
+        USE       FILE: analyse.f  LINE: 24
+        USE       FILE: analyse.f  LINE: 28
+        USE       FILE: analyse.f  LINE: 38
+        USE       FILE: analyse.f  LINE: 38
+
+psi(maxvec)   Argument 
+    Declared In: propagate
+    Declared As: COMPLEX*16
+        ARG       FILE: propagate.f  LINE: 1
+        DECL      FILE: propagate.f  LINE: 45
+        SET       FILE: propagate.f  LINE: 133
+        SET       FILE: propagate.f  LINE: 135
+        USE       FILE: propagate.f  LINE: 137
+        USE       FILE: propagate.f  LINE: 138
+        USE       FILE: propagate.f  LINE: 148
+                                                                    Page 30    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+psi [CONTINUED]
+
+        USE       FILE: propagate.f  LINE: 183
+        USE       FILE: propagate.f  LINE: 189
+        USE       FILE: propagate.f  LINE: 190
+        USE       FILE: propagate.f  LINE: 193
+        USE       FILE: propagate.f  LINE: 194
+        USE       FILE: propagate.f  LINE: 196
+        USE       FILE: propagate.f  LINE: 203
+        USE       FILE: propagate.f  LINE: 220
+        USE       FILE: propagate.f  LINE: 226
+        USE       FILE: propagate.f  LINE: 227
+
+psi(maxvec)   Argument 
+    Declared In: vtv
+    Declared As: COMPLEX*16
+        ARG       FILE: propagate.f  LINE: 342
+        DECL      FILE: propagate.f  LINE: 356
+        USE       FILE: propagate.f  LINE: 361
+        SET       FILE: propagate.f  LINE: 361
+
+psi(maxvec)   Variable 
+    Declared In: confspace
+    Declared As: COMPLEX*16
+        DECL      FILE: stateprop.f  LINE: 83
+        USE       FILE: stateprop.f  LINE: 91
+        USE       FILE: stateprop.f  LINE: 93
+
+stime   Variable 
+    Declared In: propagate
+    Declared As: REAL
+        DECL      FILE: propagate.f  LINE: 74
+        SET       FILE: propagate.f  LINE: 116
+        SET       FILE: propagate.f  LINE: 230
+        USE       FILE: propagate.f  LINE: 232
+
+tarray(2)   Variable 
+    Declared In: propagate
+    Declared As: REAL
+        DECL      FILE: propagate.f  LINE: 73
+        USE       FILE: propagate.f  LINE: 116
+        USE       FILE: propagate.f  LINE: 230
+        USE       FILE: propagate.f  LINE: 232
+
+time   Argument 
+    Declared In: lasval
+    Declared As: REAL*8
+        ARG       FILE: laser.f  LINE: 65
+        DECL      FILE: laser.f  LINE: 83
+        USE       FILE: laser.f  LINE: 90
+        USE       FILE: laser.f  LINE: 90
+
+time   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+                                                                    Page 31    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+time [CONTINUED]
+
+        DECL      FILE: propagate.f  LINE: 69
+        SET       FILE: propagate.f  LINE: 170
+        USE       FILE: propagate.f  LINE: 171
+        USE       FILE: propagate.f  LINE: 196
+        USE       FILE: propagate.f  LINE: 197
+        USE       FILE: propagate.f  LINE: 198
+        USE       FILE: propagate.f  LINE: 199
+        SET       FILE: propagate.f  LINE: 212
+        USE       FILE: propagate.f  LINE: 213
+
+timestep   Argument 
+    Declared In: option
+    Declared As: REAL*8
+        ARG       FILE: option.f  LINE: 1
+        DECL      FILE: option.f  LINE: 27
+        USE       FILE: option.f  LINE: 61
+        USE       FILE: option.f  LINE: 68
+        SET       FILE: option.f  LINE: 68
+
+timestep   Variable 
+    Declared In: confspace
+    Declared As: REAL*8
+        DECL      FILE: stateprop.f  LINE: 76
+        USE       FILE: stateprop.f  LINE: 87
+        USE       FILE: stateprop.f  LINE: 91
+
+todebye   Parameter 
+    Declared In: units.inc
+    Declared As: REAL*8
+        INCDECL   FILE: units.inc  LINE: 10
+        SET       FILE: units.inc  LINE: 15
+
+toev   Parameter 
+    Declared In: units.inc
+    Declared As: REAL*8
+        INCDECL   FILE: units.inc  LINE: 12
+        SET       FILE: units.inc  LINE: 17
+        USE       FILE: analyse.f  LINE: 27
+        USE       FILE: propagate.f  LINE: 142
+        USE       FILE: propagate.f  LINE: 198
+
+tofemts   Parameter 
+    Declared In: units.inc
+    Declared As: REAL*8
+        INCDECL   FILE: units.inc  LINE: 13
+        SET       FILE: units.inc  LINE: 18
+        USE       FILE: propagate.f  LINE: 196
+        USE       FILE: propagate.f  LINE: 197
+        USE       FILE: propagate.f  LINE: 198
+        USE       FILE: propagate.f  LINE: 199
+                                                                    Page 32    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+togigav   Parameter 
+    Declared In: units.inc
+    Declared As: REAL*8
+        INCDECL   FILE: units.inc  LINE: 11
+        SET       FILE: units.inc  LINE: 16
+        USE       FILE: propagate.f  LINE: 199
+
+tottime   Argument 
+    Declared In: option
+    Declared As: INTEGER
+        ARG       FILE: option.f  LINE: 1
+        DECL      FILE: option.f  LINE: 26
+        USE       FILE: option.f  LINE: 62
+
+tottime   Variable 
+    Declared In: confspace
+    Declared As: REAL*8
+        DECL      FILE: stateprop.f  LINE: 76
+        USE       FILE: stateprop.f  LINE: 87
+        USE       FILE: stateprop.f  LINE: 91
+
+tpulse   Variable 
+    Declared In: laser
+    Declared As: REAL*8
+    Element 3 in COMMON 'lasfield'
+        DECL      FILE: laser.f  LINE: 23
+        DECL      FILE: laser.f  LINE: 24
+        COMM      FILE: laser.f  LINE: 24
+        USE       FILE: laser.f  LINE: 45
+        USE       FILE: laser.f  LINE: 51
+        SET       FILE: laser.f  LINE: 51
+
+tpulse   Variable 
+    Declared In: lasval
+    Declared As: REAL*8
+    Element 3 in COMMON 'lasfield'
+        DECL      FILE: laser.f  LINE: 86
+        DECL      FILE: laser.f  LINE: 87
+        COMM      FILE: laser.f  LINE: 87
+        USE       FILE: laser.f  LINE: 90
+
+trans(maxvec,maxvec)   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 56
+        USE       FILE: propagate.f  LINE: 157
+        USE       FILE: propagate.f  LINE: 161
+        USE       FILE: propagate.f  LINE: 189
+        USE       FILE: propagate.f  LINE: 226
+
+ttime   Argument 
+    Declared In: propagate
+    Declared As: INTEGER
+        ARG       FILE: propagate.f  LINE: 1
+        DECL      FILE: propagate.f  LINE: 34
+                                                                    Page 33    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+ttime [CONTINUED]
+
+        USE       FILE: propagate.f  LINE: 166
+        USE       FILE: propagate.f  LINE: 211
+
+unit(maxvec)   Variable 
+    Declared In: analyse
+    Declared As: REAL*8
+        DECL      FILE: analyse.f  LINE: 11
+        SET       FILE: analyse.f  LINE: 20
+        USE       FILE: analyse.f  LINE: 23
+
+unit(maxvec)   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 30
+        SET       FILE: propagate.f  LINE: 124
+        USE       FILE: propagate.f  LINE: 137
+        USE       FILE: propagate.f  LINE: 193
+
+v(maxvec)   Argument 
+    Declared In: mtv
+    Declared As: COMPLEX*16
+        ARG       FILE: propagate.f  LINE: 280
+        DECL      FILE: propagate.f  LINE: 293
+        USE       FILE: propagate.f  LINE: 301
+
+w(maxvec)   Argument 
+    Declared In: mtv
+    Declared As: COMPLEX*16
+        ARG       FILE: propagate.f  LINE: 280
+        DECL      FILE: propagate.f  LINE: 294
+        SET       FILE: propagate.f  LINE: 299
+        USE       FILE: propagate.f  LINE: 301
+        SET       FILE: propagate.f  LINE: 301
+
+w(maxvec)   Argument 
+    Declared In: expval
+    Declared As: COMPLEX*16
+        ARG       FILE: propagate.f  LINE: 309
+        DECL      FILE: propagate.f  LINE: 327
+        USE       FILE: propagate.f  LINE: 334
+
+wave   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 10
+        SET       FILE: param.inc  LINE: 15
+
+work(lwork)   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 66
+                                                                    Page 34    
+                         OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+wout   Parameter 
+    Declared In: param.inc
+    Declared As: INTEGER
+        INCDECL   FILE: param.inc  LINE: 12
+        SET       FILE: param.inc  LINE: 22
+                                                                    Page 35    
+                   IMPLICITLY DECLARED OBJECTS SUMMARY REPORT
+===============================================================================
+
+                                                                    Page 36    
+                      COMMON USAGE CROSS REFERENCE REPORT
+===============================================================================
+
+lasfield
+
+    Subroutine laser   FILE: laser.f  LINE: 24
+        ezero             Declared As: REAL*8
+        freq              Declared As: REAL*8
+        tpulse            Declared As: REAL*8
+
+    Function lasval   FILE: laser.f  LINE: 87
+        ezero             Declared As: REAL*8
+        freq              Declared As: REAL*8
+        tpulse            Declared As: REAL*8
+                                                                    Page 37    
+                      SUBPROGRAM COMPLEXITY SUMMARY REPORT
+===============================================================================
+
+  2         analyse
+  1         confspace
+  1         exppot
+  1         expval
+  2         getdip
+  2         gethamil
+  3         laser
+  1         lasval
+  1         mtv
+  4         option
+  1         propagate
+  6         setup
+  1         vtv
+                                                                    Page 38    
+                      UNUSED OBJECT CROSS REFERENCE REPORT
+===============================================================================
+
+help(maxvec,maxvec)   Variable 
+    Declared In: propagate
+    Declared As: COMPLEX*16
+        DECL      FILE: propagate.f  LINE: 85
+
+ifail   Variable 
+    Declared In: propagate
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 78
+
+k   Variable 
+    Declared In: propagate
+    Declared As: INTEGER
+        DECL      FILE: propagate.f  LINE: 78
+
+work(lwork)   Variable 
+    Declared In: propagate
+    Declared As: REAL*8
+        DECL      FILE: propagate.f  LINE: 66
+                                                                    Page 39    
+                      UNRESOLVED SUBPROGRAM SUMMARY REPORT
+===============================================================================
+
+devcsf
+        FILE: propagate.f  LINE: 157
+
+dlinrg
+        FILE: propagate.f  LINE: 161
+
+dtime
+        FILE: propagate.f  LINE: 116
+        FILE: propagate.f  LINE: 230
+
+exit
+        FILE: analyse.f  LINE: 34
+        FILE: getfile.f  LINE: 30
+        FILE: getfile.f  LINE: 78
+        FILE: laser.f  LINE: 29
+        FILE: laser.f  LINE: 36
+        FILE: option.f  LINE: 36
+        FILE: option.f  LINE: 46
+        FILE: option.f  LINE: 54
+        FILE: setup.f  LINE: 28
+        FILE: setup.f  LINE: 41
+        FILE: setup.f  LINE: 47
+        FILE: setup.f  LINE: 53
+        FILE: setup.f  LINE: 59
+
+idate
+        FILE: setup.f  LINE: 21
+
+itime
+        FILE: setup.f  LINE: 22
+
+mp_set_numthreads
+        FILE: option.f  LINE: 71
+
+zabs
+        FILE: analyse.f  LINE: 38
+        FILE: propagate.f  LINE: 196
+        FILE: propagate.f  LINE: 334
+                                                                    Page 40    
+                          FULL INVOCATION TREE REPORT
+===============================================================================
+
+
+confspace
+|  setup
+|  |  idate   *** UNRESOLVED ***
+|  |  itime   *** UNRESOLVED ***
+|  |  exit   *** UNRESOLVED ***
+|  option
+|  |  exit   *** UNRESOLVED ***
+|  |  mp_set_numthreads   *** UNRESOLVED ***
+|  laser
+|  |  exit   *** UNRESOLVED ***
+|  gethamil
+|  |  exit   *** UNRESOLVED ***
+|  getdip
+|  |  exit   *** UNRESOLVED ***
+|  propagate
+|  |  dtime   *** UNRESOLVED ***
+|  |  expval
+|  |  |  zabs   *** UNRESOLVED ***
+|  |  vtv
+|  |  devcsf   *** UNRESOLVED ***
+|  |  dlinrg   *** UNRESOLVED ***
+|  |  lasval
+|  |  exppot
+|  |  mtv
+|  |  zabs   *** UNRESOLVED ***
+|  analyse
+|  |  expval
+|  |  |  zabs   *** UNRESOLVED ***
+|  |  exit   *** UNRESOLVED ***
+|  |  zabs   *** UNRESOLVED ***
+                                                                    Page 41    
+                              ERROR SUMMARY REPORT
+===============================================================================
+
+duplicate global name 'laser'
+    FILE: laser_gaus.f  LINE: 1
+
+duplicate global name 'lasval'
+    FILE: laser_gaus.f  LINE: 70

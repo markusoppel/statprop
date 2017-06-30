@@ -1,0 +1,44 @@
+
+ !! Welcome to Stateprop !!
+ ==========================
+
+ (c) M. Oppel, 1997 
+
+ Started at                            : 17. 1.97, 10: 6:33
+
+ Numbers of CPUs to be used            :          1
+ Total number of states                :         70
+ Cartesian component of dipolmatrix    :          y
+ Timestep                              : 0.1000D-01
+ Total number of timesteps             :      10000
+ Initial state (wavefunction)          :          1
+ Final state to analyse                :          6
+
+
+ Laser Parameters:
+ =================
+
+ Amplitude of laserfield               : 0.4000D+03
+ Frequency of laserfield               : 0.6000D+01
+ Time-duration                         : 0.1000D+03
+
+ Dipol-File                            : dipol_y.in
+
+ Norm of initial wavefunction          : 0.1000D+01
+ Initial energy                        : 0.2606D+00
+
+ ===========================================
+
+ Starting
+
+ Finished !!
+
+ Usertime                              :     4.5207 sec.
+ Sys-Time                              :     0.0336 sec.
+ Tot.Time                              :     4.5542 sec.
+
+ ==========================================
+
+ Norm of final wavefunction            : 0.1000D+01
+ Final energy                          : 0.2606D+00
+ Population of final state             : 0.1710D-04
