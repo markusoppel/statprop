@@ -1,5 +1,5 @@
-FOR= f77
-FOROPT=    +O2 
+FOR= ifort
+FOROPT=    -fpp -O2  -qopenmp -mkl
 
 OBJ= stateprop.o propagate.o option.o \
      getfile.o analyse.o      \
@@ -14,6 +14,6 @@ stateprop: $(OBJ) $(LASSIN2)
 	$(FOR)  $(FOROPT)   -c $*.f 
 
 clean:
-	rm -rf *.o statesin2 stategaus
+	rm -rf *.o stateprop
 
 

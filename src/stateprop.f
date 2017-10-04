@@ -1,4 +1,4 @@
-      program confspace
+      program stateprop
 C-----------------------------------------------------
 C
 C     Propagate a wavefunction on one potential surface
@@ -12,7 +12,7 @@ C     is evaluated using the split-operator-technique
 C     (see subroutine propagate)
 C
 C
-C     Markus Oppel, FU Berlin, Jan. 1997
+C     Markus Oppel, FU Berlin/Uni Wien, 1997 - 2017
 C
 C     Files 
 C     =====

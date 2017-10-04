@@ -64,6 +64,7 @@ C     the workspace for the diagonalization-routine
       integer lwork
       parameter(lwork=3*MAXVEC)
       real*8 work(lwork)
+      integer ipiv(MAXVEC)
 
 C     the timing
       real*8 time
@@ -154,11 +155,30 @@ C
 			pot(i,j)=dipol(i,j)
 		enddo
 	enddo
-        call devcsf(ntot,pot,MAXVEC,dipdiag,trans,MAXVEC)
+        
+C        call devcsf(ntot,pot,MAXVEC,dipdiag,trans,MAXVEC)
+        trans=pot
+        call dsyev('V','U',ntot,trans,MAXVEC,dipdiag,MAXVEC,
+     &            work,lwork,ifail)
+        if (ifail.ne.0) then
+         write (0,*)'Error while diagonalizing potential matrix'
+         call exit(1)
+        endif
 C
 C       calculate the inverse of the transformation matrix
 C
-        call DLINRG(ntot,trans,MAXVEC,inverse,MAXVEC)
+C        call DLINRG(ntot,trans,MAXVEC,inverse,MAXVEC)
+       inverse=trans
+       call DGETRF(ntot,ntot,inverse,MAXVEC,ipiv,ifail)
+        if (ifail.ne.0) then
+         write (0,*)'Error while factorizing potential matrix'
+         call exit(1)
+        endif
+       call DGETRI(ntot,inverse,MAXVEC,ipiv,work,lwork,ifail)
+        if (ifail.ne.0) then
+         write (0,*)'Error while inverting potential matrix'
+         call exit(1)
+        endif
 
 C
 C    here starts the actual propagation

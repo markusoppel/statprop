@@ -68,7 +68,9 @@ C
       timestep=timestep*FROMFEMTS
 
 C     set up parallel-options
-      call mp_set_numthreads(ncpu)
+#ifdef OPENMP
+      call omp_num_threads(ncpu)
+#endif
 
       return
 

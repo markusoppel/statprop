@@ -34,25 +34,25 @@ C     local variables
 C 
 C     open outputfiles
 C
-      open(EDAT,file='energy.dat',status='unknow',
+      open(EDAT,file='energy.dat',status='unknown',
      &     IOSTAT=ifail)
       if (ifail.ne.0) then
 	write (0,*)'Error while opening energydat'
 	call exit(1)
       endif
-      open(LDAT,file='laser.dat',status='unknow',
+      open(LDAT,file='laser.dat',status='unknown',
      &     IOSTAT=ifail)
       if (ifail.ne.0) then
 	write (0,*)'Error while opening laser.dat'
 	call exit(1)
       endif
-      open(NDAT,file='norm.dat',status='unknow',
+      open(NDAT,file='norm.dat',status='unknown',
      &     IOSTAT=ifail)
       if (ifail.ne.0) then
 	write (0,*)'Error while opening norm.dat'
 	call exit(1)
       endif
-      open(PDAT,file='pop.dat',status='unknow',
+      open(PDAT,file='pop.dat',status='unknown',
      &     IOSTAT=ifail)
       if (ifail.ne.0) then
 	write (0,*)'Error while opening pop.dat'
