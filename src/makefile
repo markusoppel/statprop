@@ -1,5 +1,5 @@
 FOR= ifort
-FOROPT=    -fpp -O2  -qopenmp -mkl
+FOROPT=    -fpp -O2  -g -qopenmp -mkl
 
 OBJ= stateprop.o propagate.o option.o \
      getfile.o analyse.o      \

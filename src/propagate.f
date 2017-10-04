@@ -158,7 +158,7 @@ C
         
 C        call devcsf(ntot,pot,MAXVEC,dipdiag,trans,MAXVEC)
         trans=pot
-        call dsyev('V','U',ntot,trans,MAXVEC,dipdiag,MAXVEC,
+        call dsyev('V','U',ntot,trans,MAXVEC,dipdiag,
      &            work,lwork,ifail)
         if (ifail.ne.0) then
          write (0,*)'Error while diagonalizing potential matrix'
