@@ -1,0 +1,8 @@
+before_script:
+  - echo $HOSTNAME
+  - echo $USER 
+  - echo $PWD
+
+job1:
+  script: "Execute script"
+    - mkdir test
