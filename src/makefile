@@ -11,7 +11,7 @@ OBJ= stateprop.o propagate.o option.o \
 
 
 stateprop: $(OBJ) $(LASSIN2) 
-	$(FOR) $(FOROPT) $(LIB) -o stateprop $(OBJ)   
+	$(FOR) $(FOROPT) -o stateprop $(OBJ) $(LIB)
 
 .f.o:   param.inc units.inc
 	$(FOR)  $(FOROPT)   -c $*.f 
