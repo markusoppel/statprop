@@ -5,4 +5,6 @@ before_script:
 
 job1:
   script: 
-    - mkdir test
+    - cd src
+    - make
+    - ls -l
