@@ -1,5 +1,5 @@
-FOR= f77
-FOROPT=    +O2 
+FOR= gfortran
+FOROPT=    -O2 
 
 OBJ= stateprop.o propagate.o option.o \
      getfile.o analyse.o      \
