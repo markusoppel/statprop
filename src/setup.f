@@ -13,12 +13,14 @@ C---------------------------------------------------------------------
 
 C     date and time 
       integer imon,iday,iyear
+      integer idarray(3)
+       
       integer iarray(3)
 
 C     local variables
       integer ifail
 
-      call idate(imon,iday,iyear)
+      call idate(idarray)
       call itime(iarray)
 
       open (NOUT,file='stateprop.out',status='unknown',

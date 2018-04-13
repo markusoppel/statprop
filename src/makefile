@@ -1,5 +1,8 @@
-FOR= ifort
-FOROPT=    -fpp -O2  -g -qopenmp -mkl
+#FOR= ifort
+FOR= gfortran
+#FOROPT=    -fpp -O2  -g -qopenmp -mkl
+FOROPT=   -cpp -O2  
+LIB=lapack
 
 OBJ= stateprop.o propagate.o option.o \
      getfile.o analyse.o      \
@@ -8,7 +11,7 @@ OBJ= stateprop.o propagate.o option.o \
 
 
 stateprop: $(OBJ) $(LASSIN2) 
-	$(FOR) $(FOROPT) -o stateprop $(OBJ)   
+	$(FOR) $(FOROPT) -l $(LIB) -o stateprop $(OBJ)   
 
 .f.o:   param.inc units.inc
 	$(FOR)  $(FOROPT)   -c $*.f 
