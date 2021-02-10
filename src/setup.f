@@ -66,7 +66,7 @@ C
       
 10    format(/1x,'!! Welcome to Stateprop !!',/
      &        1x,'==========================',//
-     &        1x,'(c) M. Oppel, 1997 ')
+     &        1x,'(c) M. Oppel, 1997 - 2021 ')
 20    format(/1x,'Started at',t40,': ',
      &        I2,'.',I2,'.',I2,', '     
      &        I2,':',I2,':',I2,/)
